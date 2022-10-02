@@ -4,8 +4,8 @@ body {
 }
 div.center {
     background-color: #ffffff;
-    width: 300px;
-    height: 459px;
+    max-width: 300px;
+    height: auto;
     border-radius: 15px;
     text-align: center;
     margin-top:100px;
@@ -31,17 +31,15 @@ img {
 
 }
 .twt {
-    padding-top: 10px;
+    padding-top: 10px; 
     width: 20px;
 }
 .github{
     padding-top: 10px;
     width: 20px;
 }   
-@media screen and (max-width: 500px) {
-    div.center {
-        margin:auto
+@media only sreen and (max-width:500px) {
+    div.center{
+        width: 100%;
     }
-    
 }
-
